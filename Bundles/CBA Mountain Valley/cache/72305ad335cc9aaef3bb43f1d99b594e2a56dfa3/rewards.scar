@@ -1,0 +1,623 @@
+
+function Mod_SetupRewards()
+	-- Setup 
+	 
+	_mod.rewards["english"]={} 
+	_mod.rewards["chinese"]={} 
+	_mod.rewards["french"]={} 
+	_mod.rewards["hre"]={} 
+	_mod.rewards["mongol"]={} 
+	_mod.rewards["rus"]={} 
+	_mod.rewards["sultanate"]={} 
+	_mod.rewards["abbasid"]={} 
+	
+	
+	---------------
+	--- English ---
+	---------------
+	     
+	-- local unit_ = BP_GetSquadBlueprint("unit_spearman_2_eng")
+	
+	_mod.rewards["english"][0]={ 
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_eng"),	
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["english"][30]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_archer_3_eng"),
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["english"][80]={
+		title = "2 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_eng"),
+		num = 2,
+	}
+	
+	_mod.rewards["english"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_archer_4_eng"),
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["english"][150]={
+		title = "2 Mangonels",
+		unit = BP_GetSquadBlueprint("unit_mangonel_3_eng"),
+		num = 2,
+	}
+	_mod.rewards["english"][200]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_archer_4_eng"),
+		num_upgrade = 5,
+	}
+	
+	_mod.rewards["english"][250]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_eng"),
+		num = 6,
+	}
+	
+	_mod.rewards["english"][300]={
+		title = "4 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_eng"),
+		num = 4,
+	}
+	_mod.rewards["english"][400]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_archer_4_eng"),
+		num_upgrade = 7,
+	}
+	
+	_mod.rewards["english"][500]={
+		title = "Duke William",
+		unit = BP_GetSquadBlueprint("unit_duke_william_cmp_eng"),
+		num = 1,
+	}
+	
+	_mod.rewards["english"][600]={
+		title = "40 Knights",
+		unit = BP_GetSquadBlueprint("unit_knight_4_eng"),
+		num = 40,
+	}
+	_mod.rewards["english"][700]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_eng"),
+		num = 6,
+	}
+	
+	_mod.rewards["english"][1000]={
+		title = "60 Knights",
+		unit = BP_GetSquadBlueprint("unit_knight_4_eng"),
+		num = 60,
+	}
+	
+	---------------
+	--- Chinese ---
+	---------------
+ 
+	
+	_mod.rewards["chinese"][0]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_chi"),	
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["chinese"][35]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_repeater_crossbowman_3_chi"),
+		num_upgrade = 4,
+		unit = BP_GetSquadBlueprint("unit_villager_1_chi"),
+		num = 1,
+	}
+	
+	_mod.rewards["chinese"][75]={
+		title = "2 Officials",
+		unit = BP_GetSquadBlueprint("unit_official_1_chi"),
+		num = 2,
+	}
+	
+	_mod.rewards["chinese"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_repeater_crossbowman_4_chi"),
+		num_upgrade = 3,
+	}
+	_mod.rewards["chinese"][150]={
+		title = "4 Nest of Bees",
+		unit = BP_GetSquadBlueprint("unit_nest_of_bees_4_chi"),
+		num = 4,
+	}
+	_mod.rewards["chinese"][200]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_repeater_crossbowman_4_chi"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["chinese"][300]={
+		title = "8 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_chi"),
+		num = 8,
+	}
+	_mod.rewards["chinese"][400]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_grenadier_4_chi"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["chinese"][500]={
+		title = "30 Firelancers",
+		unit = BP_GetSquadBlueprint("unit_firelancer_4_chi"),
+		num = 30,
+	}
+	_mod.rewards["chinese"][1000]={
+		title = "20 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_chi"),
+		num = 20,
+	}
+	
+		
+	---------------
+	--- French ---
+	---------------
+	
+ 
+	
+	_mod.rewards["french"][0]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_fre"),	
+		num_upgrade = 4,
+	} 
+
+	_mod.rewards["french"][30]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_3_fre"),
+		num_upgrade = 2,
+	}
+	
+	_mod.rewards["french"][70]={
+		title = "2 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_fre"),
+		num = 2,
+	}
+	_mod.rewards["french"][1]={
+		title = "Jean de Beaumanoir",
+		unit = BP_GetSquadBlueprint("unit_jean_de_beaumanoir_cmp_fre"),
+		num = 1,
+	} 
+	
+	_mod.rewards["french"][100]={
+		title = "Age IV" ,
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_4_fre"),
+		num_upgrade = 2,
+	}
+	_mod.rewards["french"][150]={
+		title = "2 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_fre"),
+		num = 2,
+	}
+	_mod.rewards["french"][200]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_4_fre"),
+		num_upgrade = 3,
+	}
+	_mod.rewards["french"][250]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_fre"),
+		num = 6,
+	}
+	_mod.rewards["french"][300]={
+		title = "20 Crossbowman",
+		unit = BP_GetSquadBlueprint("unit_crossbowman_4_fre"),
+		num = 20,
+	}
+	_mod.rewards["french"][400]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_4_fre"),
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["french"][500]={
+		title = "Joan of Arc",
+		unit = BP_GetSquadBlueprint("unit_joan_of_arc_cavalry_cmp_fre"),
+		num = 1,
+	}
+	
+	_mod.rewards["french"][600]={
+		title = "8 Royal Cannons",
+		unit = BP_GetSquadBlueprint("unit_cannon_4_royal_fre"),
+		num = 8,
+	}
+	
+	_mod.rewards["french"][700]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_fre"),
+		num = 6,
+	}
+	_mod.rewards["french"][1000]={
+		title = "12 Royal Cannons",
+		unit = BP_GetSquadBlueprint("unit_cannon_4_royal_fre"),
+		num = 12,
+	}	
+			
+	---------------
+	--- HRE ---
+	---------------
+	
+ 
+	_mod.rewards["hre"][0]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_hre"),	
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["hre"][30]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_manatarms_3_hre"),
+		num_upgrade = 3,
+	}
+	_mod.rewards["hre"][50]={
+		title = "4 Monks",
+		unit = BP_GetSquadBlueprint("unit_monk_1_hre"),
+		num = 4,
+	}
+	
+	_mod.rewards["hre"][70]={
+		title = "2 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_hre"),
+		num = 2,
+	}
+	_mod.rewards["hre"][80]={
+		title = "20 Landsknechts",
+		unit = BP_GetSquadBlueprint("unit_landsknecht_3_hre"),
+		num = 20,
+	}	
+	
+	_mod.rewards["hre"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_manatarms_4_hre"),
+		num_upgrade = 3,
+	}
+	
+	_mod.rewards["hre"][150]={
+		title = "20 Spearmans",
+		unit = BP_GetSquadBlueprint("unit_spearman_4_hre"),
+		num = 20,
+	}
+	
+	_mod.rewards["hre"][200]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_manatarms_4_hre"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["hre"][250]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_hre"),
+		num = 6,
+	}
+	_mod.rewards["hre"][350]={
+		title = "30 Landsknechts",
+		unit = BP_GetSquadBlueprint("unit_landsknecht_4_hre"),
+		num = 30,
+	}	
+	_mod.rewards["hre"][400]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_manatarms_4_hre"),
+		num_upgrade = 6,
+	}
+	
+	_mod.rewards["hre"][450]={
+		title = "40 Spearmans",
+		unit = BP_GetSquadBlueprint("unit_spearman_4_hre"),
+		num = 40,
+	}	
+	_mod.rewards["hre"][500]={
+		title = "8 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_hre"),
+		num = 8,
+	}
+	_mod.rewards["hre"][600]={
+		title = "50 Landsknechts",
+		unit = BP_GetSquadBlueprint("unit_landsknecht_4_hre"),
+		num = 50,
+	}
+	_mod.rewards["hre"][700]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_hre"),
+		num = 6,
+	}
+	_mod.rewards["hre"][1000]={
+		title = "60 Landsknechts",
+		unit = BP_GetSquadBlueprint("unit_landsknecht_4_hre"),
+		num = 60,
+	}
+	
+	
+				
+	---------------
+	--- Mongol ---
+	---------------
+ 
+	
+	_mod.rewards["mongol"][0]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_mon"),	
+		num_upgrade = 4,
+	} 
+	
+	_mod.rewards["mongol"][40]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_3_mon"),
+		num_upgrade = 2,
+		unit = BP_GetSquadBlueprint("building_wonder_age1_kurultai_moving_mon"),
+		num = 1,
+	}
+	
+	_mod.rewards["mongol"][70]={
+		title = "1 Villager",
+		unit = BP_GetSquadBlueprint("unit_villager_1_mon"),
+		num = 1,
+	}
+	
+	_mod.rewards["mongol"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_4_mon"),
+		num_upgrade = 2,
+		unit = BP_GetSquadBlueprint("building_wonder_age3_stupa_moving_mon"),
+		num = 1,
+	}
+	_mod.rewards["mongol"][150]={
+		title = "4 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_mon"),
+		num = 4,
+	}
+	_mod.rewards["mongol"][200]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_4_mon"),
+		num_upgrade = 3,
+	}
+	_mod.rewards["mongol"][250]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_mon"),
+		num = 6,
+	}
+	_mod.rewards["mongol"][300]={
+		title = "4 Mangonel",
+		unit = BP_GetSquadBlueprint("unit_mangonel_3_mon"),
+		num = 4,
+	}
+	_mod.rewards["mongol"][400]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_knight_4_mon"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["mongol"][1000]={
+		title = "Huihui Pao",
+		unit = BP_GetSquadBlueprint("unit_great_trebuchet_cmp_mon"),
+		num = 1,
+	}
+	
+					
+	---------------
+	--- Rus ---
+	---------------
+ 
+	
+	_mod.rewards["rus"][0]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_rus"),	
+		num_upgrade = 4,
+	}
+	_mod.rewards["rus"][15]={
+		title = "Ivan the Terrible",
+		unit = BP_GetSquadBlueprint("unit_ivan_the_terrible_cmp_rus"),
+		num = 1,
+	}	
+	
+	_mod.rewards["rus"][30]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_horsearcher_3_rus"),
+		num_upgrade = 3,
+		unit = BP_GetSquadBlueprint("unit_monk_3_rus"),
+		num = 2,
+	}
+	
+	_mod.rewards["rus"][80]={
+		title = "2 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_rus"),
+		num = 2,
+	}
+	
+	_mod.rewards["rus"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_horsearcher_4_rus"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["rus"][150]={
+		title = "2 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_rus"),
+		num = 2,
+	}
+	_mod.rewards["rus"][200]={
+		title = "Upgrade Troops", 
+		unit_upgrade = BP_GetSquadBlueprint("unit_horsearcher_4_rus"),
+		num_upgrade = 5,
+	}
+	_mod.rewards["rus"][250]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_rus"),
+		num = 6,
+	}
+
+	_mod.rewards["rus"][300]={
+		title = "8 Springalds",
+		unit = BP_GetSquadBlueprint("unit_springald_3_rus"),
+		num = 8,
+	}
+	_mod.rewards["rus"][400]={
+		title = "Upgrade Troops", 
+		unit_upgrade = BP_GetSquadBlueprint("unit_handcannon_4_rus"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["rus"][500]={
+		title = "6 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_rus"),
+		num = 6,
+	}
+	_mod.rewards["rus"][700]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_rus"),
+		num = 6,
+	}
+	_mod.rewards["rus"][1000]={
+		title = "Upgrade Troops", 
+		unit_upgrade = BP_GetSquadBlueprint("unit_handcannon_4_rus"),
+		num_upgrade = 8,
+	}
+					
+	---------------
+	--- sultanate ---
+	---------------
+ 
+	
+	_mod.rewards["sultanate"][0]={
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_sul"),	
+		num_upgrade = 4,
+	}
+	
+	_mod.rewards["sultanate"][35]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_manatarms_3_sul"),
+		num_upgrade = 3,
+		unit = BP_GetSquadBlueprint("unit_monk_2_sul"),
+		num = 4,
+	}
+	
+	_mod.rewards["sultanate"][80]={
+		title = "2 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_sul"),
+		num = 2,
+	}
+	
+	_mod.rewards["sultanate"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_manatarms_3_sul"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["sultanate"][150]={
+		title = "2 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_sul"),
+		num = 2,
+	}
+	_mod.rewards["sultanate"][200]={
+		title = "20 Crossbowman",
+		unit = BP_GetSquadBlueprint("unit_crossbowman_4_sul"),
+		num = 20,
+	}
+	_mod.rewards["sultanate"][250]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_sul"),
+		num = 6,
+	}
+	_mod.rewards["sultanate"][300]={
+		title = "4 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_sul"),
+		num = 4,
+	}
+	_mod.rewards["sultanate"][400]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_war_elephant_tower_4_sul"),
+		num_upgrade = 1,
+	}
+	_mod.rewards["sultanate"][500]={
+		title = "8 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_sul"),
+		num = 8,
+	}
+	_mod.rewards["sultanate"][700]={
+		title = "6 Villagers",
+		unit = BP_GetSquadBlueprint("unit_villager_1_sul"),
+		num = 6,
+	}
+	_mod.rewards["sultanate"][1000]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_war_elephant_tower_4_sul"),
+		num_upgrade = 2,
+	}
+						
+	---------------
+	--- Abbasid ---
+	---------------
+ 
+	
+	_mod.rewards["abbasid"][0]={ 
+		unit_upgrade = BP_GetSquadBlueprint("unit_spearman_2_abb"),	
+		num_upgrade = 4,
+	}
+	 
+
+	_mod.rewards["abbasid"][35]={
+		title = "Age III",
+		age = 3,
+		unit_upgrade = BP_GetSquadBlueprint("unit_camel_rider_3_abb"),
+		num_upgrade = 2,
+	}
+	
+	_mod.rewards["abbasid"][80]={
+		title = "2 Villagers", 
+		unit = BP_GetSquadBlueprint("unit_villager_1_abb"),
+		num = 2,
+	}
+	
+	_mod.rewards["abbasid"][100]={
+		title = "Age IV",
+		age = 4	,
+		unit_upgrade = BP_GetSquadBlueprint("unit_camel_rider_4_abb"),
+		num_upgrade = 3,
+	}
+	_mod.rewards["abbasid"][150]={
+		title = "2 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_abb"),
+		num = 2,
+	}
+	_mod.rewards["abbasid"][200]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_camel_rider_4_abb"),
+		num_upgrade = 4,
+	}
+	_mod.rewards["abbasid"][250]={
+		title = "6 Villagers", 
+		unit = BP_GetSquadBlueprint("unit_villager_1_abb"),
+		num = 6,
+	}
+	_mod.rewards["abbasid"][300]={
+		title = "4 Bombards",
+		unit = BP_GetSquadBlueprint("unit_bombard_4_abb"),
+		num = 4,
+	}
+	_mod.rewards["abbasid"][400]={
+		title = "20 Handcannon",
+		unit = BP_GetSquadBlueprint("unit_handcannon_4_abb"),
+		num = 20,
+	}
+	_mod.rewards["abbasid"][500]={
+		title = "8 Culverin",
+		unit = BP_GetSquadBlueprint("unit_culverin_4_abb"),
+		num = 8,
+	}
+	_mod.rewards["abbasid"][700]={
+		title = "6 Villagers", 
+		unit = BP_GetSquadBlueprint("unit_villager_1_abb"),
+		num = 6,
+	}
+	_mod.rewards["abbasid"][1000]={
+		title = "Upgrade Troops",
+		unit_upgrade = BP_GetSquadBlueprint("unit_camel_rider_4_abb"),
+		num_upgrade = 8,
+	}
+end

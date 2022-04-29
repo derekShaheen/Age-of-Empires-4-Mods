@@ -1,0 +1,175 @@
+HeaderInfo =  
+{
+	ScenarioDescription = "Mountain Valley 2 intended for CBA.",
+	ScenarioDescriptionlong = "Mountain Valley 2 intended for CBA. Credit to Skrip and Hanks Narrow Urethra. Credit for base to github@kzoacn",
+	mapsize =  
+	{
+		256,
+		256,
+	},
+	point_positions =  
+	{
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1004,
+			x = 44.50000,
+			y = -110.50000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1005,
+			x = 111.50000,
+			y = -43.50000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1006,
+			x = 111.50000,
+			y = 44.50000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1007,
+			x = 44.50000,
+			y = 111.50000,
+		},
+		 
+		{
+			ebp_name = "holy_site",
+			owner_id = 0,
+			x = 0.00000,
+			y = 0.00000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1000,
+			x = -43.50000,
+			y = 111.50000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1001,
+			x = -110.50000,
+			y = 44.50000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1002,
+			x = -110.50000,
+			y = -43.50000,
+		},
+		 
+		{
+			ebp_name = "starting_position_shared_territory",
+			owner_id = 1003,
+			x = -43.50000,
+			y = -110.50000,
+		},
+	},
+	scenario_type = 1,
+	scenarioabbrname = "CBA MV2",
+	scenarioname = "CBA Mountain Valley 2",
+	slots =  
+	{
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 0,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 1,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 1,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 1,
+		},
+		 
+		{
+			do_not_randomize = true,
+			status = 0,
+			team = 1,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+		 
+		{
+			status = 1,
+			team = 10001,
+		},
+	},
+	sort_index = 2147483639,
+	version = 3001,
+	visible_in_lobby = true,
+	worldbp = "default",
+}
+

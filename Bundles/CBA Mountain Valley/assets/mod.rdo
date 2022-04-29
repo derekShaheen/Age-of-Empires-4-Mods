@@ -1,0 +1,28 @@
+<DataWarehouse>
+	<!--CBA Mountain Valley/-->
+	<DataObject Name="CBA Mountain Valley" Type="Mod" Id="15936488535734053990" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">5505022367989004912</DataValue>
+			<!--CBA Mountain Valley/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="5505022367989004912" OwnerId="15936488535734053990">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="4090156971"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="2439859506"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1088320948"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1134788180"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">3266406289403764008</DataValue>
+			<!--CBA Mountain Valley/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="3266406289403764008" OwnerId="15936488535734053990">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="4090156971"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="2439859506"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1088320948"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1134788180"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+
